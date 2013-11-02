@@ -120,30 +120,20 @@ a {
     padding-top: 50px;
     text-align: right;
 }
+
+/* footer */
+
 .footerLink {
     color: grey;
-    font-family: 'RobotoLight';
+    font-family: 'Roboto';
     font-size: 20px;
-    line-height: 30px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
     text-decoration: none;
 }
 .footerLink:hover {
-    color: #FFFFFF;
-    text-decoration: none;
-}
-.footerAuthor {
-    color: #ECF0F1;
-    font-family: 'RobotoLight';
-    font-size: 18px;
-    line-height: 60px;
-    display:inline-block;
-}
-.footerAuthor a {
-    color: #A3C5DB;
-    text-decoration: none;
-}
-.footerAuthor a:active {
-    color: #A3C5DB;
+    color: #C0392B;
     text-decoration: none;
 }
 .shareButtons {
@@ -153,3 +143,18 @@ a {
     top: 50px;
     width: 100%;
 }
+
+#footerTable {
+    position:       relative;
+    height:         190px;
+    width:          65%;
+    margin-top:     20px;
+    margin-bottom:  20px;
+    text-align:     center;
+}
+
+
+
+
+
+
