@@ -1,16 +1,3 @@
-
-@font-face {
-    font-family: "RobotoLight";
-    src: url("Roboto-Light.ttf") format("truetype");
-}
-@font-face {
-    font-family: "Roboto";
-    src: url("Roboto-Regular.ttf") format("truetype");
-}
-@font-face {
-    font-family: "RobotoThin";
-    src: url("Roboto-Thin.ttf") format("truetype");
-}
 html {
     border: medium none;
     height: 100%;
@@ -25,7 +12,7 @@ body {
     background: none repeat scroll 0 0 #C0392B;
     border-radius: 6px 6px 6px 6px;
     color: #ECF0F1;
-    font-family: Helvetica;
+    font-family: 'Roboto';
     font-size: 24px;
     height: 90px;
     line-height: 90px;
@@ -44,7 +31,7 @@ a {
     background: none repeat scroll 0 0 #27AE60;
     border-radius: 6px 6px 6px 6px;
     color: #ECF0F1;
-    font-family: Helvetica;
+    font-family: 'Roboto';
     font-size: 24px;
     height: 90px;
     line-height: 90px;
@@ -58,43 +45,44 @@ a {
 }
 .homepageMessageTitle {
     color: #626668;
-    font-family: Helvetica;
+    font-family: 'Roboto';
     font-size: 36px;
     margin-bottom: 30px;
     margin-top: 50px;
 }
 .homepageMessage {
     color: #626668;
-    font-family: Helvetica;
+    font-family: 'Roboto';
     font-size: 30px;
     margin-top: 50px;
 }
 .homepageMessage b {
-    font-family: Helvetica;
+    font-family: 'Roboto';
     font-weight: normal;
 }
 .homepageMessageWhite {
     color: #ECF0F1;
-    font-family: Helvetica;
+    font-family: 'Roboto';
     font-size: 36px;
     margin-top: 50px;
 }
 .homepageMessageWhite b {
-    font-family: Helvetica;
+    font-family: 'Roboto';
     font-weight: normal;
 }
 .homepageText {
     color: #ECF0F1;
-    font-family: Helvetica;
+    font-family: 'Roboto';
     font-size: 22px;
     margin-top: 20px;
+    font-weight: 100;
 }
 .homepageText b {
-    font-family: Helvetica;
-    font-weight: normal;
+    font-family: 'Roboto';
+    font-weight: 500;
 }
 .homepageText a {
-    color: #A3C5DB;
+    color: gray;
     text-decoration: none;
 }
 .homepageText a:active {
@@ -103,7 +91,7 @@ a {
 }
 .homepageTextTitle {
     color: #ECF0F1;
-    font-family: Helvetica;
+    font-family: 'Roboto';
     font-size: 38px;
     font-weight: normal;
     margin-top: 50px;
@@ -138,7 +126,6 @@ a {
     font-size: 20px;
     line-height: 30px;
     text-decoration: none;
-    display: inline;
 }
 .footerLink:hover {
     color: #FFFFFF;
