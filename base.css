@@ -1,0 +1,133 @@
+
+@font-face {
+    font-family: "RobotoLight";
+    src: url("Roboto-Light.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("Roboto-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "RobotoThin";
+    src: url("Roboto-Thin.ttf") format("truetype");
+}
+html {
+    border: medium none;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.homepageMessageTitle {
+    color: #626668;
+    font-family: 'Roboto';
+    font-size: 36px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.homepageMessage {
+    color: #626668;
+    font-family: 'RobotoThin';
+    font-size: 30px;
+    margin-top: 50px;
+}
+.homepageMessage b {
+    font-family: 'Roboto';
+    font-weight: normal;
+}
+.homepageMessageWhite {
+    color: #ECF0F1;
+    font-family: 'RobotoThin';
+    font-size: 36px;
+    margin-top: 50px;
+}
+.homepageMessageWhite b {
+    font-family: 'Roboto';
+    font-weight: normal;
+}
+.homepageText {
+    color: #ECF0F1;
+    font-family: 'RobotoThin';
+    font-size: 22px;
+    margin-top: 20px;
+}
+.homepageText b {
+    font-family: 'Roboto';
+    font-weight: normal;
+}
+.homepageText a {
+    color: #A3C5DB;
+    text-decoration: none;
+}
+.homepageText a:active {
+    color: #A3C5DB;
+    text-decoration: none;
+}
+.homepageTextTitle {
+    color: #ECF0F1;
+    font-family: 'Roboto';
+    font-size: 38px;
+    font-weight: normal;
+    margin-top: 50px;
+}
+.boxWrapper {
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
+.boxContainer {
+    margin: 0 auto;
+    width: 960px;
+}
+.boxTable {
+    display: table;
+    height: 400px;
+    text-align: left;
+    width: 65%;
+}
+.boxTableCell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.boxImage {
+    padding-top: 50px;
+    text-align: right;
+}
+.footerLink {
+    color: #ECF0F1;
+    font-family: 'RobotoLight';
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none;
+    display: inline-block;
+}
+.footerLink:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footerAuthor {
+    color: #ECF0F1;
+    font-family: 'RobotoLight';
+    font-size: 18px;
+    line-height: 60px;
+    display:inline-block;
+}
+.footerAuthor a {
+    color: #A3C5DB;
+    text-decoration: none;
+}
+.footerAuthor a:active {
+    color: #A3C5DB;
+    text-decoration: none;
+}
+.shareButtons {
+    position: absolute;
+    right: 50px;
+    text-align: right;
+    top: 50px;
+    width: 100%;
+}
