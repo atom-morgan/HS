@@ -21,41 +21,76 @@ body {
     margin: 0;
     padding: 0;
 }
+.actionButton {
+    background: none repeat scroll 0 0 #C0392B;
+    border-radius: 6px 6px 6px 6px;
+    color: #ECF0F1;
+    font-family: Helvetica;
+    font-size: 24px;
+    height: 90px;
+    line-height: 90px;
+    margin-top: 50px;
+    text-align: center;
+    width: 340px;
+}
+a {
+    text-decoration: none;
+}
+.actionButton:hover {
+    background: none repeat scroll 0 0 #E74C3C;
+    text-decoration: none;
+}
+.actionButtonGreen {
+    background: none repeat scroll 0 0 #27AE60;
+    border-radius: 6px 6px 6px 6px;
+    color: #ECF0F1;
+    font-family: Helvetica;
+    font-size: 24px;
+    height: 90px;
+    line-height: 90px;
+    margin-top: 50px;
+    text-align: center;
+    width: 280px;
+}
+.actionButtonGreen:hover {
+    background: none repeat scroll 0 0 #2ECC71;
+    text-decoration: none;
+}
 .homepageMessageTitle {
     color: #626668;
-    font-family: 'Roboto';
+    font-family: Helvetica;
     font-size: 36px;
     margin-bottom: 30px;
     margin-top: 50px;
 }
 .homepageMessage {
     color: #626668;
-    font-family: 'RobotoThin';
+    font-family: Helvetica;
     font-size: 30px;
     margin-top: 50px;
 }
 .homepageMessage b {
-    font-family: 'Roboto';
+    font-family: Helvetica;
     font-weight: normal;
 }
 .homepageMessageWhite {
     color: #ECF0F1;
-    font-family: 'RobotoThin';
+    font-family: Helvetica;
     font-size: 36px;
     margin-top: 50px;
 }
 .homepageMessageWhite b {
-    font-family: 'Roboto';
+    font-family: Helvetica;
     font-weight: normal;
 }
 .homepageText {
     color: #ECF0F1;
-    font-family: 'RobotoThin';
+    font-family: Helvetica;
     font-size: 22px;
     margin-top: 20px;
 }
 .homepageText b {
-    font-family: 'Roboto';
+    font-family: Helvetica;
     font-weight: normal;
 }
 .homepageText a {
@@ -68,7 +103,7 @@ body {
 }
 .homepageTextTitle {
     color: #ECF0F1;
-    font-family: 'Roboto';
+    font-family: Helvetica;
     font-size: 38px;
     font-weight: normal;
     margin-top: 50px;
@@ -98,12 +133,12 @@ body {
     text-align: right;
 }
 .footerLink {
-    color: #ECF0F1;
+    color: grey;
     font-family: 'RobotoLight';
     font-size: 20px;
     line-height: 30px;
     text-decoration: none;
-    display: inline-block;
+    display: inline;
 }
 .footerLink:hover {
     color: #FFFFFF;
