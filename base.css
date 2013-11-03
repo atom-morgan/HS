@@ -14,11 +14,13 @@ body {
     color: #ECF0F1;
     font-family: 'Roboto';
     font-size: 24px;
-    height: 90px;
-    line-height: 90px;
-    margin-top: 50px;
+    height: 65px;
+    line-height: 65px;
+    margin-top: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
     text-align: center;
-    width: 340px;
+    width: 67%;
 }
 a {
     text-decoration: none;
@@ -46,15 +48,15 @@ a {
 .homepageMessageTitle {
     color: #626668;
     font-family: 'Roboto';
-    font-size: 36px;
-    margin-bottom: 30px;
+    font-size: 38px;
+    margin-bottom: 20px;
     margin-top: 50px;
 }
 .homepageMessage {
-    color: #626668;
+    color: #000;
     font-family: 'Roboto';
-    font-size: 30px;
-    margin-top: 50px;
+    font-size: 22px;
+    font-weight: 100;
 }
 .homepageMessage b {
     font-family: 'Roboto';
@@ -74,7 +76,7 @@ a {
     color: #ECF0F1;
     font-family: 'Roboto';
     font-size: 22px;
-    margin-top: 20px;
+    margin-top: 30px;
     font-weight: 100;
 }
 .homepageText b {
@@ -92,7 +94,7 @@ a {
 .homepageTextTitle {
     color: #ECF0F1;
     font-family: 'Roboto';
-    font-size: 38px;
+    font-size: 32px;
     font-weight: normal;
     margin-top: 50px;
 }
@@ -126,10 +128,11 @@ a {
 .footerLink {
     color: grey;
     font-family: 'Roboto';
-    font-size: 20px;
+    font-size: 18px;
     line-height: 40px;
     margin: 0;
     padding: 0;
+    padding-right: 45px;
     text-decoration: none;
     font-weight: normal;
 }
@@ -149,6 +152,71 @@ a {
 #footerTable {
     position:       relative;
     height:         100px;
-    width:          55%;
+    width:          100%;
     text-align:     center;
+}
+
+.footerTD {
+    white-space:  nowrap;
+    width: 1%;
+    text-align: center;   
+}
+
+.inputMain {
+    padding: 5px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 6px;
+    box-shadow: 0 0 3px #000000;
+
+    font-size: 24px;
+    font-family: 'Roboto';
+    line-weight: light;
+    height: 50px;
+    width: 65%;
+    text-align: center; 
+}
+
+.inputMain:hover {
+    background: #8eadcd;
+}
+
+.inputFooter {
+    padding: 3px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 6px;
+    box-shadow: 0 0 3px #000000;
+
+    font-size: 16px;
+    font-family: 'Roboto';
+    line-weight: light;
+    height: 35px;
+    width: 100%;
+    text-align: left; 
+
+}
+
+.inputFooter:hover {
+    background: #8eadcd;
+}
+
+.actionButtonMini {
+    background: none repeat scroll 0 0 #C0392B;
+    border-radius: 6px 6px 6px 6px;
+    color: #ECF0F1;
+    font-family: 'Roboto';
+    font-size: 16px;
+    height: 45px;
+    line-height: 45px;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.actionButtonMini:hover {
+    background: none repeat scroll 0 0 #E74C3C;
+    text-decoration: none;
 }
