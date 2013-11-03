@@ -143,6 +143,8 @@ a {
 .boxTableCell {
     display: table-cell;
     vertical-align: middle;
+    padding-right: 65px;
+    padding-left: 65px;
 }
 
 .boxImage {
