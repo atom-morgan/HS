@@ -48,15 +48,15 @@ a {
 .homepageMessageTitle {
     color: #626668;
     font-family: 'Roboto';
-    font-size: 36px;
-    margin-bottom: 30px;
+    font-size: 38px;
+    margin-bottom: 20px;
     margin-top: 50px;
 }
 .homepageMessage {
-    color: #626668;
+    color: #000;
     font-family: 'Roboto';
-    font-size: 30px;
-    margin-top: 50px;
+    font-size: 22px;
+    font-weight: 100;
 }
 .homepageMessage b {
     font-family: 'Roboto';
@@ -76,7 +76,7 @@ a {
     color: #ECF0F1;
     font-family: 'Roboto';
     font-size: 22px;
-    margin-top: 20px;
+    margin-top: 30px;
     font-weight: 100;
 }
 .homepageText b {
@@ -94,7 +94,7 @@ a {
 .homepageTextTitle {
     color: #ECF0F1;
     font-family: 'Roboto';
-    font-size: 38px;
+    font-size: 32px;
     font-weight: normal;
     margin-top: 50px;
 }
