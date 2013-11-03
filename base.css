@@ -8,6 +8,15 @@ body {
     margin: 0;
     padding: 0;
 }
+
+#container {
+    width: 960px;
+    min-width: 960px;
+    max-width: 960px;
+    margin: 0 auto;
+    height: 450px;
+    position: relative;
+}
 .actionButton {
     background: none repeat scroll 0 0 #C0392B;
     border-radius: 6px 6px 6px 6px;
@@ -107,7 +116,9 @@ a {
 }
 .boxContainer {
     margin: 0 auto;
-    width: 960px;
+    width: 95%;
+    min-width: 960px;
+    max-width: 1152px;
 }
 .boxTable {
     display: table;
@@ -119,9 +130,12 @@ a {
     display: table-cell;
     vertical-align: middle;
 }
+
 .boxImage {
     padding-top: 50px;
     text-align: right;
+    padding-right: 40px;
+    padding-left: 40px;
 }
 
 /* footer */
