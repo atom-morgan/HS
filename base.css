@@ -97,7 +97,21 @@ a {
     font-family: 'Roboto';
     font-size: 32px;
     font-weight: normal;
-    margin-top: 50px;
+    margin-top: 50px;   
+}
+.aboutpageTextTitle {
+    color: #626668;
+    font-family: 'Roboto';
+    font-size: 26px;
+    font-weight: normal;
+    margin-top: 50px;   
+}
+.aboutpageText {
+    color: #626668;
+    font-family: 'Roboto';
+    font-size: 22px;
+    margin-top: 30px;
+    font-weight: 100;
 }
 .boxWrapper {
     height: 400px;
