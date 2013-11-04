@@ -11,9 +11,9 @@ body {
 }
 
 #container {
-    width: 960px;
-    min-width: 960px;
-    max-width: 960px;
+    width: 1024px;
+    min-width: 1024px;
+    max-width: 1024px;
     margin: 0 auto;
     height: 550px;
     position: relative;
@@ -315,5 +315,12 @@ a {
 }
 
 .iPad {
-   /* css here */
+    border: 0;
+    height: 400px;
+}
+
+.headerImgBox {
+    float: left;
+    text-align: left;
+    width: 40%;
 }
