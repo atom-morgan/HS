@@ -15,7 +15,7 @@ body {
     min-width: 960px;
     max-width: 960px;
     margin: 0 auto;
-    height: 450px;
+    height: 550px;
     position: relative;
 }
 .actionButton {
@@ -299,16 +299,19 @@ a {
 
 
 /* Logo */
-.logo {
-    font-family: 'NexaHeavy';
-    color: #C0392B;
-    font-size: 52px;
-    font-weight: normal;
-    font-style: normal;
-}
+
 
 .logoContainer {
-    padding: 15px 0px 15px 0px;
+    padding: 40px 0px 15px 0px;
+}
+
+.logo {
+    position: relative;
+    font-size: 56px;
+    color: #C0392B;
+    font-family: 'NexaHeavy';
+    font-weight: normal;
+    line-height: 56px;
 }
 
 .iPad {
