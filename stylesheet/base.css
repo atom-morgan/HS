@@ -240,3 +240,16 @@ a {
     margin-left: 20px;
     margin-top: 10px;
 }
+
+/* Logo */
+.logo {
+    font-family: 'NexaHeavy';
+    color: #C0392B;
+    font-size: 52px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.logoContainer {
+    padding: 15px 0px 15px 0px;
+}

@@ -1,0 +1,27 @@
+/* @license
+ * MyFonts Webfont Build ID 2680511, 2013-11-03T19:21:08-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Nexa Heavy by Fontfabric
+ * URL: http://www.myfonts.com/fonts/font-fabric/nexa/heavy/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * Licensed pageviews: 10,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2680511
+ * 
+ * © 2013 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/28e6bf");
+
+  
+@font-face {font-family: 'NexaHeavy';src: url('webfonts/28E6BF_0_0.eot');src: url('webfonts/28E6BF_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/28E6BF_0_0.woff') format('woff'),url('webfonts/28E6BF_0_0.ttf') format('truetype');}
+ 
