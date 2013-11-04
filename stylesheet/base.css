@@ -122,6 +122,7 @@ a {
     text-align: right;
     padding-right: 0px;
     padding-left: 0px;
+
 }
 
 /* footer */
@@ -229,6 +230,19 @@ a {
     margin-top: 10px;
 }
 
+.largeButtonImg {
+    height: 45px; /* default */
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px; /* needs to be changed */
+    margin-bottom: 20px;
+    vertical-align: middle;
+}
+
+.largeButtonImg:hover, .largeButtonImg:focus, .largeButtonImg:active {
+    box-shadow: 0 0 3px #000000;
+}
+
 /* *** about.html *** */
 
 .abFtrWrapper {
@@ -282,11 +296,6 @@ a {
     font-weight: 100;
 }
 
-/* *** Other *** */
-
-#socialMedia {
-
-}
 
 
 /* Logo */
