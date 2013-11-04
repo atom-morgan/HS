@@ -316,10 +316,11 @@ a {
 
 .iPad {
     border: 0;
-    height: 400px;
+    height: 300px;
 }
 
 .headerImgBox {
+    position: relative;
     float: left;
     text-align: left;
     width: 40%;
