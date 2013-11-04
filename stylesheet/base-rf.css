@@ -6,6 +6,7 @@ html, body {
 	padding: 0;
 	margin: 0;
 	width: 100%;
+	background: #ECF0F1;
 }
 
 a {
@@ -13,16 +14,16 @@ a {
 }
 
 header {
-	background: #ecf0f1;
+	background: #ECF0F1;
 	padding: 0;
 	position: relative;
 	top: 0px;
 	text-align: center;
-	height: 100px;
 }
 
 header.index {
-
+	min-height: 750px;
+	max-height: ;
 }
 
 #headerLogo {
@@ -39,7 +40,20 @@ header.index {
 }
 
 #headerDiv {
+	display: table;
+	height: 550px;
+	min-width: 960px;
+	max-width: 1152px;
+}
 
+#headerDivLeft {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#headerDivRight {
+	display: table-cell;
+	vertical-align: middle;
 }
 
 #content {
