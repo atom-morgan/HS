@@ -43,7 +43,7 @@ a {
 .homepageMessageTitle {
     color: #626668;
     font-family: 'Roboto';
-    font-size: 38px;
+    font-size: 36px;
     margin-bottom: 40px;
     margin-top: 40px;
 }
@@ -122,6 +122,7 @@ a {
     text-align: right;
     padding-right: 0px;
     padding-left: 0px;
+
 }
 
 /* footer */
@@ -165,7 +166,7 @@ a {
 
 .inputMain {
     padding: 5px;
-    margin-top: 40px;
+    margin-top: 10px;
     background: #FFFFFF;
     border: 1px solid #828282;
     border-radius: 6px;
@@ -208,9 +209,9 @@ a {
     color: #ECF0F1;
     font-family: 'Roboto';
     font-size: 18px;
-    height: 45px;
-    line-height: 45px;
-    margin-top: 0px;
+    height: 43px;
+    line-height: 43px;
+    margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
     text-align: center;
@@ -227,6 +228,19 @@ a {
     margin-right: 20px;
     margin-left: 20px;
     margin-top: 10px;
+}
+
+.largeButtonImg {
+    height: 45px; /* default */
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px; /* needs to be changed */
+    margin-bottom: 20px;
+    vertical-align: middle;
+}
+
+.largeButtonImg:hover, .largeButtonImg:focus, .largeButtonImg:active {
+    box-shadow: 0 0 3px #000000;
 }
 
 /* *** about.html *** */
@@ -282,11 +296,6 @@ a {
     font-weight: 100;
 }
 
-/* *** Other *** */
-
-#socialMedia {
-
-}
 
 
 /* Logo */
