@@ -1,0 +1,67 @@
+/* *** general *** */
+
+html, body {
+	border: 0;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	padding: 10px;
+	margin: 0px;
+	position: absolute;
+	top: 0px;
+}
+
+header.index {
+
+}
+
+footer {
+
+}
+
+footer.index {
+
+}
+
+.contentDiv {
+	/* style consistent across all content divs */
+}
+
+.index {
+	/* style consistent across index elements */
+}
+
+#headerLogo {
+
+}
+
+#headerDiv {
+
+}
+
+#footerLinks {
+
+}
+
+#footerShare {
+
+}
+
+#div1 {
+
+}
+
+#div2 {
+
+}
+
+#div3 {
+
+}
+
+#div4 {
+	
+}
