@@ -5,21 +5,51 @@ html, body {
 	height: 100%;
 	padding: 0;
 	margin: 0;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
 }
 
 header {
-	padding: 10px;
-	margin: 0px;
-	position: absolute;
+	background: #ecf0f1;
+	padding: 0;
+	position: relative;
 	top: 0px;
+	text-align: center;
+	height: 100px;
 }
 
 header.index {
 
 }
 
-footer {
+#headerLogo {
+	padding: 40px 0px 15px 0px;
+}
 
+.logo {
+	position: relative;
+    font-size: 56px;
+    color: #C0392B;
+    font-family: 'NexaHeavy';
+    font-weight: normal;
+    line-height: 56px;
+}
+
+#headerDiv {
+
+}
+
+#content {
+	position: relative;
+}
+
+footer {
+	position: relative;
+	bottom: 0px;
+	height: 100px;
 }
 
 footer.index {
@@ -28,19 +58,16 @@ footer.index {
 
 .contentDiv {
 	/* style consistent across all content divs */
+	min-height: 400px;
+	margin: 0 auto;
+	position: relative;
+	width: 100%;
 }
 
 .index {
 	/* style consistent across index elements */
 }
 
-#headerLogo {
-
-}
-
-#headerDiv {
-
-}
 
 #footerLinks {
 
@@ -51,17 +78,17 @@ footer.index {
 }
 
 #div1 {
-
+	background: #34495e;
 }
 
 #div2 {
-
+	background: #E67E22;
 }
 
 #div3 {
-
+	background: #3498db;
 }
 
 #div4 {
-	
+	background: #029C40;
 }
