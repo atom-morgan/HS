@@ -43,7 +43,7 @@ a {
 .homepageMessageTitle {
     color: #626668;
     font-family: 'Roboto';
-    font-size: 38px;
+    font-size: 36px;
     margin-bottom: 40px;
     margin-top: 40px;
 }
@@ -165,7 +165,7 @@ a {
 
 .inputMain {
     padding: 5px;
-    margin-top: 40px;
+    margin-top: 10px;
     background: #FFFFFF;
     border: 1px solid #828282;
     border-radius: 6px;
