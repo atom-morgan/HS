@@ -280,6 +280,7 @@ header.index {
 .imgContent {
 	height: 375px;
 	margin: 0 auto;
+}
 
 /*
 	FOOTER SECTION
@@ -295,12 +296,10 @@ header.index {
 footer {
 	position: relative;
 	height: 100px;
-	width: 75%;
+	min-width: ;
+	width: 85%;
 	margin: 0 auto;
-}
-
-footer.index {
-
+	white-space: nowrap;
 }
 
 .footerLinks {
