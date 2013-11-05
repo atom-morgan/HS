@@ -19,6 +19,7 @@ html, body {
 
 a {
 	text-decoration: none;
+	color: #3498db;
 }
 
 img {
@@ -112,7 +113,7 @@ header.index {
 }
 
 #headerTagline {
-	color: #626668;
+	color: #34495e;
     font-family: 'Roboto';
     font-size: 36px;
     margin-bottom: 40px;
@@ -217,7 +218,7 @@ header.index {
 	background: #3498db;
 }
 #div4 {
-	background: #029C40;
+	background: #363534;
 }
 
 .contentDivImg {
@@ -316,7 +317,7 @@ footer {
 	margin: 0 auto;
     padding-right: 50px;
     padding-left: 0;
-	color: grey;
+	color: #363534;
     font-family: 'Roboto';
     font-size: 20px;
     line-height: 100px;
