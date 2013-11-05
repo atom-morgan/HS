@@ -102,12 +102,6 @@ header.index {
 	margin: 5px 10px 10px 0px;
 }
 
-#ipadImg {
-	width: 100%;
-	min-width: 500px;
-	margin: 0 auto;
-}
-
 #headerDivBody {
 	display: table-cell;
 	vertical-align: middle;
@@ -207,11 +201,10 @@ header.index {
 }
 
 .contentDiv {
-	display: table;
 	height: 450px;
 	width: 100%;
-	margin: 0 auto;
-	padding: 5px 0;
+	margin: 0;
+	padding: 0 0;
 	position: relative;
 }
 
@@ -229,15 +222,18 @@ header.index {
 }
 
 .contentDivImg {
-	display: table-cell;
-	vertical-align: middle;
-	width: 40%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 50%;
+	text-align: center;
 	margin: 0 auto;
-	padding: 0 10px;
+	padding: 0;
 }
 
 .contentDivBody {
-	display: table-cell;
+	position: absolute;
 	vertical-align: middle;
 	text-align: left;
 	width: 40%;
@@ -246,8 +242,8 @@ header.index {
 }
 
 /* set floats and margin-left or -right to flip */
-#div1 .contentDivImg { float: right; padding-left: 0; padding-right: 20%; }
-#div1 .contentDivBody { float: left; padding-left: 20%; padding-right: 0; }
+#div1 .contentDivImg { float: right; padding-left: 0; padding-right: 5px; }
+#div1 .contentDivBody { float: left; padding-left: 5px; padding-right: 0; }
 #div2 .contentDivImg { float: left; padding-left: 20%; padding-right: 0; }
 #div2 .contentDivBody { float: right; padding-left: 0; padding-right: 20%; }
 #div3 .contentDivImg { float: right; padding-left: 0; padding-right: 20%; }
@@ -275,9 +271,38 @@ header.index {
 	font-weight: 500;
 }
 
-/* *********************** */
-/* *** footer section *** */
-/* *********************** */
+#img1 {
+	width: 100%;
+	min-width: 500px;
+	margin: 0 auto;
+}
+#img2 {
+	width: 400px;
+	margin: 0 auto;
+}
+#img3 {
+	width: 100%;
+	margin: 0 auto;
+}
+#img4 {
+	width: 100%;
+	margin: 0 auto;
+}
+#img5 {
+	width: 100%;
+	margin: 0 auto;
+}
+
+/*
+	FOOTER SECTION
+
+	footer
+	>	nav
+		>	footerLinks
+			>	footerLink
+		>	footerShare
+			> AddToAny
+*/
 
 footer {
 	position: relative;
