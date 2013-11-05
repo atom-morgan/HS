@@ -25,7 +25,26 @@ img {
 	border: 0;
 }
 
+.index {
+	/* style consistent across all index-classed elements */
+}
 
+/*
+	HEADER SECTION
+
+	header
+	>	headerLogo
+	>	headerDiv
+		>	headerDivImg
+			>	ipadImg
+		>	headerDivBody
+			>	headerTagline
+			>	centerInset
+				>	inputMain
+				>	a > actionButton
+				>	insetTagline
+				>	buttonImg
+*/
 
 header {
 	background: #ECF0F1;
@@ -38,12 +57,13 @@ header.index {
 	min-height: 800px;
 }
 
-#headerLogo {
+.headerLogo {
 	padding: 80px 0 5px 0;
-	margin: 0 auto 0 auto;
+	margin: 0 auto;
 	height: 20%;
 	min-height: 120px;
 	text-align: center;
+	position: relative;
 }
 
 .logo {
@@ -88,7 +108,7 @@ header.index {
 	margin: 0 auto;
 }
 
-#headerDivContent {
+#headerDivBody {
 	display: table-cell;
 	vertical-align: middle;
 	text-align: right;
@@ -166,11 +186,98 @@ header.index {
     margin-top: 10px;
 }
 
+/*
+	CONTENT SECTION
 
+	content
+	>	contentDiv
+		>	contentDivImg
+			>	img
+		>	contentDivBody
+			>	contentDivBodyTitle
+			>	contentDivBodyText
+
+*/
 
 #content {
 	position: relative;
+	margin: 0;
+	padding: 0;
+	width: 100%;
 }
+
+.contentDiv {
+	display: table;
+	height: 450px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 5px 0;
+	position: relative;
+}
+
+#div1 {
+	background: #34495e;
+}
+#div2 {
+	background: #E67E22;
+}
+#div3 {
+	background: #3498db;
+}
+#div4 {
+	background: #029C40;
+}
+
+.contentDivImg {
+	display: table-cell;
+	vertical-align: middle;
+	width: 40%;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.contentDivBody {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left;
+	width: 40%;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+/* set floats and margin-left or -right to flip */
+#div1 .contentDivImg { float: right; padding-left: 0; padding-right: 20%; }
+#div1 .contentDivBody { float: left; padding-left: 20%; padding-right: 0; }
+#div2 .contentDivImg { float: left; padding-left: 20%; padding-right: 0; }
+#div2 .contentDivBody { float: right; padding-left: 0; padding-right: 20%; }
+#div3 .contentDivImg { float: right; padding-left: 0; padding-right: 20%; }
+#div3 .contentDivBody { float: left; padding-left: 20%; padding-right: 0; }
+#div4 .contentDivImg { float: left; padding-left: 20%; padding-right: 0; }
+#div4 .contentDivBody { float: right; padding-left: 0; padding-right: 20%; }
+
+.contentDivBodyTitle {
+	color: #ECF0F1;
+	font-family: 'Roboto';
+	font-size: 32px;
+	font-weight: normal;
+	margin-top: 30px;
+}
+
+.contentDivBodyText {
+	color: #ECF0F1;
+	font-family: 'Roboto';
+	font-size: 22px;
+	font-weight: 100;
+}
+
+.contentDivBodyText b {
+	font-family: 'Roboto';
+	font-weight: 500;
+}
+
+/* *********************** */
+/* *** footer section *** */
+/* *********************** */
 
 footer {
 	position: relative;
@@ -182,19 +289,6 @@ footer {
 footer.index {
 
 }
-
-.contentDiv {
-	/* style consistent across all content divs */
-	min-height: 400px;
-	margin: 0 auto;
-	position: relative;
-	width: 100%;
-}
-
-.index {
-	/* style consistent across index elements */
-}
-
 
 .footerLinks {
 	margin: 0 auto;
@@ -240,21 +334,5 @@ footer.index {
 	vertical-align: middle;
 	width: 38px;
 	height: 40px;
-}
-
-#div1 {
-	background: #34495e;
-}
-
-#div2 {
-	background: #E67E22;
-}
-
-#div3 {
-	background: #3498db;
-}
-
-#div4 {
-	background: #029C40;
 }
 
