@@ -53,8 +53,8 @@ header {
 }
 
 header.index {
-	height: 95%;
-	min-height: 800px;
+	height: 100%;
+	margin-bottom: -35px;
 }
 
 .headerLogo {
@@ -89,7 +89,6 @@ header.index {
 	height: 100%;
 	min-height: 550px;
 	width: 70%;
-	min-width: 1024px;
 	margin: 0 auto;
 	padding-top: 5px;
 }
@@ -227,7 +226,6 @@ header.index {
 	bottom: 0;
 	text-align: center;
 	margin: -187px auto 0;
-	padding: 0;
 }
 
 .contentDivBody {
@@ -236,7 +234,7 @@ header.index {
 	bottom: 0;
 
 	height: 50%;
-	width: 36%;
+	width: 35%;
 
 	margin: auto;
 }
@@ -278,22 +276,10 @@ header.index {
 	min-width: 500px;
 	margin: 0 auto;
 }
+
 .imgContent {
 	height: 375px;
 	margin: 0 auto;
-}
-#img3 {
-	width: 100%;
-	margin: 0 auto;
-}
-#img4 {
-	width: 100%;
-	margin: 0 auto;
-}
-#img5 {
-	width: 100%;
-	margin: 0 auto;
-}
 
 /*
 	FOOTER SECTION
