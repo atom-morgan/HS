@@ -1,0 +1,55 @@
+header.aboutIndex {
+	height: 95%;
+	min-height: 800px;
+}
+#aboutDiv {
+	display: table;
+	height: 100%;
+	min-height: 550px;
+	width: 70%;
+	min-width: 1024px;
+	margin: 0 auto;
+	padding-top: 5px;
+}
+#headerDivNameLeft {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left;
+	float: left;
+	width: 45%;
+	padding-top: 25px;
+	margin: 5px 10px 10px 0px;
+}
+#headerDivNameRight {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: right; /* switched */
+	float: right;
+	width: 45%;
+	padding-top: 25px;
+	margin: 5px 10px 10px 0px;
+}
+#headerAboutName {
+	color: #626668;
+    font-family: 'Roboto';
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+#headerAboutTwitter {
+	color: #626668;
+    font-family: 'Roboto';
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+#headerDivInsetLeft {
+	color: #626668;
+	font-family: 'Roboto';
+	font-size: 22px;
+	font-weight: 100;
+}
+#headerDivInsetRight {
+	color: #626668;
+	font-family: 'Roboto';
+	font-size: 22px;
+	font-weight: 100;
+}
