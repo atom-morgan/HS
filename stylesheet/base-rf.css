@@ -1,6 +1,7 @@
 /* *** general *** */
 
 html, body {
+	font-size: 100%;
 	border: 0;
 	height: 100%;
 	padding: 0;
@@ -59,10 +60,9 @@ header.index {
 }
 
 .headerLogo {
-	padding: 80px 0 5px 0;
+	padding: 70px 0 0 0;
 	margin: 0 auto;
-	height: 20%;
-	min-height: 120px;
+	height: 130px;
 	text-align: center;
 	position: relative;
 }
@@ -81,71 +81,73 @@ header.index {
 	position: absolute;
 	color: rgba(255,255,255,.1);
 	content: 'HairStory';
-}
+}	
 .logo:before { top: 3px; left: 3px; }
 .logo:after { top: 5px; left: 5px; }
 
 #headerDiv {
-	display: table;
-	height: 100%;
-	min-height: 550px;
-	width: 70%;
+	position: relative;
+	height: calc(100% - 235px);
+	min-height: 665px;
+	width: 1300px;
+	top: 5%;
 	margin: 0 auto;
-	padding-top: 5px;
 }
 
 #headerDivImg {
-	display: table-cell;
-	vertical-align: middle;
-	float: left;
-	width: 50%;
-	margin: 5px 10px 10px 0px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 55%;
+	margin: auto;
+}
+
+#img1 {
+	width: 100%;
+	margin: 0 auto;
 }
 
 #headerDivBody {
-	display: table-cell;
-	vertical-align: middle;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 55%;
+	right: 0;
 	text-align: right;
-	float: right;
-	width: 45%;
-	padding-top: 25px;
-	margin: 5px 10px 10px 0px;
+	margin: auto;
+	padding-top: 15px;
 }
 
 #headerTagline {
 	color: #34495e;
     font-family: 'Roboto';
-    font-size: 36px;
-    margin-bottom: 40px;
+    font-size: 2.1em;
+    letter-spacing: 0.05em;
 }
 
 #centerInset {
 	position: relative;
-	padding-top: 50px;
-	padding-bottom: 10px;
+	padding-top: 6%;
+	padding-bottom: 6%;
 	text-align: center;
-	margin: 0 10px 0 100px;
-}
-
-#insetTagline {
-	color: #000;
-    font-family: 'Roboto';
-    font-size: 22px;
-    font-weight: 100;
+	left: 3em;
+	right: 0;
 }
 
 #inputMain {
-	padding: 5px;
+	padding: .25em;
 	margin: 0 auto;
     background: #FFFFFF;
     border: 1px solid #828282;
     border-radius: 6px;
 
-    font-size: 24px;
+    font-size: 1.3em;
     font-family: 'Roboto';
     font-weight: 100;
-    height: 50px;
-    width: 85%;
+    height: 1.8em;
+    min-width: 13em;
+    width: 75%;
     text-align: center; 
 }
 
@@ -155,17 +157,23 @@ header.index {
 }
 
 #actionButton {
-    background: none repeat scroll 0 0 #C0392B;
-    border-radius: 6px 6px 6px 6px;
-    color: #ECF0F1;
-    font-family: 'Roboto';
-    font-size: 24px;
-    height: 65px;
-    line-height: 65px;
+    padding: .25em;
     margin: 0 auto;
-    margin-top: 10px;
+    background: none repeat scroll 0 0 #C0392B;
+    border: 1px solid #C0392B;
+    border-radius: 6px;
+
+    font-size: 1.3em;
+    font-family: 'Roboto';
+    height: 1.8em;
+    line-height: 1.8em;
+    min-width: 13em;
+    width: 75%;
     text-align: center;
-    width: 87%;
+
+    color: #ECF0F1;
+    margin-top: .5em;
+    margin-bottom: 1.75em;
 }
 
 #actionButton:active, #actionButton:focus, #actionButton:hover {
@@ -173,11 +181,20 @@ header.index {
     text-decoration: none;
 }
 
+#insetTagline {
+	color: #000;
+	font-size: 1.3em;
+    font-family: 'Roboto';
+    font-weight: 100;
+}
+
+#buttonImgWrapper {
+	margin-top: 0.9em;
+}
+
 .buttonImg {
-    height: 50px;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-top: 10px;
+    height: 3em;
+    margin: 0 1.3em;
 }
 
 /*
@@ -272,15 +289,53 @@ header.index {
 	font-weight: 500;
 }
 
-#img1 {
-	width: 100%;
-	min-width: 500px;
-	margin: 0 auto;
-}
-
 .imgContent {
 	height: 375px;
 	margin: 0 auto;
+}
+
+.inputMini {
+	padding: .25em;
+	margin: 2em 1% 0 0;
+	background: #FFFFFF;
+	border: 1px solid #828282;
+	border-radius: 6px;
+	width: 60%;
+	height: 1.5em;
+	text-align: left;
+
+	font-size: 1.2em;
+	font-family: 'Roboto';
+	font-weight: 100;
+}
+
+.inputMini:active, .inputMini:focus, .inputMini:hover {
+    background: #FFFFFF;
+    box-shadow: inset 0 0 3px #029C40;
+}
+
+.actionButtonMini {
+	padding: .35em;
+	margin: 2em 0 0 1%;
+	background: none repeat scroll 0 0 #C0392B;
+	border-radius: 6px;
+	
+	font-size: 1.2em;
+	font-family: 'Roboto';
+	color: #ECF0F1;
+
+	line-height: 1.2em;
+	text-align: center;
+}
+
+.actionButtonMini:before, .actionButtonMini:after {
+	color: rgba(0,0,0,0);
+	content: "___";
+}
+
+.actionButtonMini:active, .actionButtonMini:focus, .actionButtonMini:hover {
+    background: none repeat scroll 0 0 #E74C3C;
+    text-decoration: none;
 }
 
 /*
