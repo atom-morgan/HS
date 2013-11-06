@@ -88,6 +88,7 @@ header.index {
 #headerDiv {
 	display: table;
 	min-height: 550px;
+	min-width: 900px;
 	width: 70%;
 	margin: auto;
 	padding-top: 5px;
