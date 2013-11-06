@@ -27,10 +27,6 @@ img {
 	border: 0;
 }
 
-.index {
-	/* style consistent across all index-classed elements */
-}
-
 /*
 	HEADER SECTION
 
@@ -352,7 +348,6 @@ header.index {
 footer {
 	position: relative;
 	height: 100px;
-	min-width: ;
 	width: 75%;
 	margin: 0 auto;
 	white-space: nowrap;
@@ -403,4 +398,3 @@ footer {
 	width: 38px;
 	height: 40px;
 }
-
