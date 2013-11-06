@@ -6,171 +6,130 @@
     <title>HairStory</title>
     <meta name="description" content="Content description here">
     <link rel="shortcut icon" href="appicon.png">
-    <link href='http://fonts.googleapis.com/css?family=Roboto:100,500' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,500' rel='stylesheet' type='text/css'>
     <link href="stylesheet/MyFontsWebfontsKit.css" rel="stylesheet" type="text/css">
-    <link href="stylesheet/base.css" rel="stylesheet" type="text/css">
+    <link href="stylesheet/base-rf.css" rel="stylesheet" type="text/css">
   </head>
 
-<!-- END   HEAD -->
-<!-- BEGIN BODY -->
+<body>
 
-  <body style="background:#ecf0f1;margin:0;padding:0;">
-    <div style="text-align:center; width:100%; margin:0 auto;">
-      <div style="width:100%; height:50px; align:center;" class="logoContainer">
-      	<a href="index.html"><span class="logo">HairStory</span></a>
+  <header class="index">
+    <div class="headerLogo">
+      <a href="index.html"><span class="logo">HairStory</span></a>
+    </div>
+    <div id="headerDiv">
+      <div id="headerDivImg">
+        <img src="images/index_prototype_pic1.png" id="img1" />
       </div>
-
-      <div style="width:100%; margin:0 auto; margin-top:40px; margin-bottom:120px;vertical-align: middle;padding-top:25px;padding-bottom:25px;">
-        <div id="container">
-          <div class="headerImgBox">
-            <img class="iPad" src="images/prototypeFinal.png" border="0"><!--Change this-->
-          </div>
-            <br />
-          <div style="float:right;text-align:right;width:60%;">
-            <div>
-              <span class="homepageMessageTitle">Create, save, and share all your <br>haircut preferences with any haircare professional in seconds</span>
-            </div>
-            <br><br>
-            <!-- The div below has padding on the left for pushing the contents rightward
-              to visual center of standard float right div -->
-            <div style="margin:0 auto;padding-left:60px;">        
-              <center>
-                <input class="inputMain" type="email" placeholder="email@address.com"/>
-              	<a href="#">
-                      <div class="actionButton">Get notified when it's ready!</div>
-                   </a><br><br>
-                <span class="homepageMessage">Available in Spring 2014 for web, iOS, and Android</span>
-                <br><div><img src="images/App-store-button.png" class="buttonImg" /> <img src="images/Google-play-button.png" class="buttonImg" /></div>
-              </center>
-             </div>
-           </div>
+      <div id="headerDivBody">
+        <span id="headerTagline">Create and share all your haircut preferences with any haircare professional in seconds</span>
+        <div id="centerInset">
+          <input id="inputMain" type="email" placeholder="email@address.com" />
+            <a href="#">
+              <div id="actionButton">Get notified when it's ready!</div>
+            </a>
+            <span id="insetTagline">Available in Spring 2014 for web, iOS, and Android</span>
+            <div id="buttonImgWrapper"><img src="images/App-store-button.png" class="buttonImg" /> <img src="images/Google-play-button.png" class="buttonImg" /></div>
         </div>
       </div>
+    </div>
+  </header>
 
-<!-- END   BODY HEADER DIV -->
-<!-- BEGIN BODY CONTENT DIV 1 -->
-
-      <div class="boxWrapper" style="background:#34495e;">
-        <div class="boxContainer">
-          <div class="boxTable" style="float:left;" >
-            <div class="boxTableCell">
-              <span class="homepageTextTitle">Eliminate your haircut woes</span><br /><br />
-              <span class="homepageText">Forget trying to remember and explain that haircut from weeks ago. We help you <b>better communicate</b> your preferences to your haircare provider. 
+  <div id="content">
+    <div id="div1" class="contentDiv">
+      <div class="contentDivImg">
+        <img src="images/index_prototype_pic2.png" class="imgContent" />
+      </div>
+      <div class="contentDivBody">
+        <span class="contentDivBodyTitle">Eliminate your haircut woes</span>
+        <br /><br />
+        <span class="contentDivBodyText">Forget trying to remember and explain that haircut from weeks ago. We help you <b>better communicate</b> your preferences to your haircare provider. 
               In seconds, save and share your <b>personal preferences</b> to your HairStory profile.<br /></span>
-            </div>
-          </div>
-          <div class="boxImage" style="float:right;">
-            <img src="images/box1_image.svg" border="0" width="300" height="300">
-          </div>
-        </div>
       </div>
+    </div>
 
-<!-- END   BODY CONTENT DIV 1 -->
-<!-- BEGIN BODY CONTENT DIV 2 -->
-
-      <div class="boxWrapper" style="background:#e67e22;">
-        <div class="boxContainer">
-          <div class="boxTable" style="float:right;" >
-            <div class="boxTableCell">
-              <span class="homepageTextTitle">Salons & Barbershops</span><br><br>
-              <span class="homepageText">With your clients' <b>hair profile</b> in hand, data comes to life helping to bridge the <b>communication gap</b> between you and your customers. We present your clients' preferences to you with just the right level of detail - photos, guards, cut lengths, custom styles, and more!</span>
-            </div>
-          </div>
-          <div class="boxImage" style="float:left;">
-            <img src="images/box2_image.svg" border="0" width="320" height="320">
-          </div>
-        </div>
+    <div id="div2" class="contentDiv">
+      <div class="contentDivImg">
+        <img src="images/index_prototype_pic3.png" class="imgContent" />
       </div>
-
-<!-- END   BODY CONTENT DIV 2 -->
-<!-- BEGIN BODY CONTENT DIV 3 -->
-
-      <div class="boxWrapper" style="background:#3498db;">
-        <div class="boxContainer">
-          <div class="boxTable" style="float:left;" >
-            <div class="boxTableCell">
-              <span class="homepageTextTitle">Customers</span><br><br>
-              <span class="homepageText">Create your profile with our easy to use app to share with your haircare professional. Take <b>photos</b> after each visit to create a <b>personal catalog</b> of past looks so you never have to explain what you liked a month ago.</span>
-            </div>
-          </div>
-          <div class="boxImage" style="float:right;">
-            <img src="images/box3_image.svg" border="0" width="300" height="300">
-          </div>
-        </div>
+      <div class="contentDivBody">
+        <span class="contentDivBodyTitle">Salons & Barbershops</span>
+        <br /><br />
+        <span class="contentDivBodyText">With your clients' <b>hair profiles</b> in hand, data comes to life helping to bridge the <b>communication gap</b> between you and your customers. We present your clients' preferences to you with just the right level of detail - photos, guards, cut lengths, custom styles, and more! </span>
       </div>
+    </div>
 
-<!-- END   BODY CONTENT DIV 3 -->
-<!-- BEGIN BODY CONTENT DIV 4 -->
-
-      <div class="boxWrapper" style="background:#029C40;">
-        <div class="boxContainer">
-          <div class="boxTable" style="float:right;" >
-            <div class="boxTableCell">
-              <span class="homepageTextTitle">Stay updated</span><br><br>
-              <span class="homepageText">Find us on Facebook and Twitter to receive the latest updates on our progress. Sign up now and you'll receive and invite to be one of our first users.</span><br>
-              
-              <div style="text-align:center;vertical-align:middle;float:right;width:100%;min-height:100px;">
-                <a href="#"><img src="images/Facebook-text.png" class="largeButtonImg" style="height:60px;" /></a>
-                <a href="#"><img src="images/Twitter-text-bird.png" class="largeButtonImg" /></a>
-              </div>
-              <br />
-              <div style="float:left;width:68%;vertical-align:middle;text-align:center;margin-top:20px;">
-                <input class="inputFooter" type="email" placeholder="email@address.com"/>
-              </div>
-              <div style="float:right;width:28%;">
-                <a href="#"><div class="actionButtonMini">Get notified!</div></a>
-              </div>
-            </div>
-          </div>
-          <div class="boxImage" style="float:left;">
-            <img src="images/macPrototypeFinal.png" border="0" width="400" height="300">
-          </div>
-        </div>
+    <div id="div3" class="contentDiv">
+      <div class="contentDivImg">
+        <img src="images/index_prototype_pic4.png" class="imgContent" />
       </div>
+      <div class="contentDivBody">
+        <span class="contentDivBodyTitle">Customers</span>
+        <br /><br />
+        <span class="contentDivBodyText">Create your profile with our easy to use app to share with your haircare professional. Take <b>photos</b> after each visit to create a <b>personal catalog</b> of past looks so you never have to explain what you liked a month ago.</span>
+      </div>
+    </div>
 
-<!-- END   BODY CONTENT DIV 3 -->
-<!-- BEGIN BODY FOOTER -->
+    <div id="div4" class="contentDiv">
+      <div class="contentDivImg">
+        <img src="images/index_prototype_pic5.png" class="imgContent" />
+      </div>
+      <div class="contentDivBody">
+        <span class="contentDivBodyTitle">Stay updated</span>
+        <br /><br />
+        <span class="contentDivBodyText">
+          Find us on 
+          <a href="#">Facebook</a>
+          and
+          <a href="http://twitter.com/hairstoryapp" target="_blank">Twitter</a>
+          to receive the latest updates on our progress. Sign up now and you'll receive an invite to be one of our first users.
+        </span>
+        <br />
+        <input class="inputMini" type="email" placeholder="email@address.com" />
+        <a href="#">
+         <span class="actionButtonMini">Get notified!</span>
+        </a>
+      </div>
+    </div>
+  </div>
 
-      <div class="boxWrapper" style="background:#FFF;height:100px;">
-        <div class="boxContainer">
-            <table class="footerTable">
-              <tr>
-                <td class="footerTD" style="width:50%;">
-                  <a href="index.html"><span class="footerLink">HOME</span></a>
-                  <a href="about.html"><span class="footerLink">ABOUT</span></a>
-                  <a href="mailto:info@hairstoryapp.com"><span class="footerLink">CONTACT US</span></a>
-                  <a href="#"><span class="footerLink">TERMS OF USE</span></a>
-                </td>
-                <td class="footerTD" style="width:50%;text-align:right;">
-                  <!-- AddToAny BEGIN -->
-                  <div style="float:right;">
-                    <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-                    <a class="a2a_dd" href="http://www.addtoany.com/share_save?linkurl=http%3A%2F%2Fwww.hairstoryapp.com%2F&amp;linkname=HairStory"></a>
-                    <a class="a2a_button_email"></a>
-                    <a class="a2a_button_facebook"></a>
-                    <a class="a2a_button_twitter"></a>
-                    <a class="a2a_button_google_plus"></a>
-                    <a class="a2a_button_pinterest"></a>
-                    <a class="a2a_button_reddit"></a>
-                    <a class="a2a_button_tumblr"></a>
-                    <a class="a2a_button_linkedin"></a>
-                    </div>
-                    <script type="text/javascript">
-                    var a2a_config = a2a_config || {};
-                    a2a_config.linkname = "HairStory";
-                    a2a_config.linkurl = "http://www.hairstoryapp.com/";
-                    a2a_config.color_main = "D7E5ED";
-                    a2a_config.color_border = "AECADB";
-                    a2a_config.color_link_text = "333333";
-                    a2a_config.color_link_text_hover = "333333";
-                    </script>
-                    <script type="text/javascript" src="http://static.addtoany.com/menu/page.js"></script>
-                  <!-- AddToAny END -->
-                  </div>
-                </td>
-              </tr>
-            </table>
-      	</div>
-     </div>
-  </body>
+  <footer>
+    <nav>
+      <div class="footerLinks">
+        <a href="index.html"><span class="footerLink">HOME</span></a>
+        <a href="about.html"><span class="footerLink">ABOUT</span></a>
+        <a href="mailto:info@hairstoryapp.com"><span class="footerLink">CONTACT US</span></a>
+        <a href="#"><span class="footerLink">TERMS OF USE</span></a>
+      </div>
+    </nav>
+      <div class="footerShare">
+        <!-- AddToAny BEGIN -->
+          <div style="float:right;">
+            <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+              <a class="a2a_dd footerShareButton" href="http://www.addtoany.com/share_save?linkurl=http%3A%2F%2Fwww.hairstoryapp.com%2F&amp;linkname=HairStory"></a>
+              <a class="a2a_button_email footerShareButton"></a>
+              <a class="a2a_button_facebook footerShareButton"></a>
+              <a class="a2a_button_twitter footerShareButton"></a>
+              <a class="a2a_button_google_plus footerShareButton"></a>
+              <a class="a2a_button_pinterest footerShareButton"></a>
+              <a class="a2a_button_reddit footerShareButton"></a>
+              <a class="a2a_button_tumblr footerShareButton"></a>
+              <a class="a2a_button_linkedin footerShareButton"></a>
+            </div>
+            <script type="text/javascript">
+              var a2a_config = a2a_config || {};
+              a2a_config.linkname = "HairStory";
+              a2a_config.linkurl = "http://www.hairstoryapp.com/";
+              a2a_config.color_main = "D7E5ED";
+              a2a_config.color_border = "AECADB";
+              a2a_config.color_link_text = "333333";
+              a2a_config.color_link_text_hover = "333333";
+            </script>
+            <script type="text/javascript" src="http://static.addtoany.com/menu/page.js"></script>
+          </div>
+        <!-- AddToAny END -->
+      </div>
+  </footer>
+
+</body>
 </html>
