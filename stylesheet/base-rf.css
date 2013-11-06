@@ -116,6 +116,7 @@ header.index {
 	right: 0;
 	text-align: right;
 	margin: auto;
+	padding-top: 15px;
 }
 
 #headerTagline {
