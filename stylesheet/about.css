@@ -1,0 +1,57 @@
+* {
+	box-sizing: border-box;
+}
+
+header.about {
+	height: 200px;
+}
+
+#main {
+	position: relative;
+	width: 960px;
+	height: calc(100% - 300px);
+	padding: 0;
+	margin: 0 auto;
+}
+
+#profileBox1 {
+	position: relative;
+	float: left;
+	border: 1px solid #000;
+	width: 440px;
+}
+
+#profileBox2 {
+	position: relative;
+	float: right;
+	border: 1px solid #D7E5ED;
+	width: 440px;
+}
+
+.profileHeadT {
+	display: table;
+}
+
+.profileTImg {
+	display: table-cell;
+	width: 220px;
+}
+
+.profileTTitle {
+	display: table-cell;
+	width: 220px;
+}
+
+.profileTTitleName {
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-size: 1.75em;
+	color: #34495E;
+}
+
+.profileTTitleTwitter {
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-size: 1.25em;
+	color: #34495E;
+}

@@ -47,6 +47,7 @@ img {
 header {
 	background: #ECF0F1;
 	padding: 0;
+	margin: 0;
 	position: relative;
 }
 
@@ -96,7 +97,7 @@ header.index {
 	bottom: 0;
 	left: 0;
 	right: 55%;
-	margin: auto;
+	margin: 0 auto;
 }
 
 #img1 {
@@ -111,7 +112,7 @@ header.index {
 	left: 55%;
 	right: 0;
 	text-align: right;
-	margin: auto;
+	margin: 0 auto;
 	padding-top: 15px;
 }
 
@@ -217,7 +218,7 @@ header.index {
 	height: 450px;
 	width: 100%;
 	margin: 0;
-	padding: 0 0;
+	padding: 0;
 	position: relative;
 }
 
@@ -344,6 +345,14 @@ header.index {
 		>	footerShare
 			> AddToAny
 */
+
+#footerSnap {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	height: 100px;
+}
 
 footer {
 	position: relative;
