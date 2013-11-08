@@ -21,6 +21,7 @@ html, body {
 a {
 	text-decoration: none;
 	color: #3498db;
+	white-space: nowrap;
 }
 
 img {
@@ -47,6 +48,7 @@ img {
 header {
 	background: #ECF0F1;
 	padding: 0;
+	margin: 0;
 	position: relative;
 }
 
@@ -96,7 +98,7 @@ header.index {
 	bottom: 0;
 	left: 0;
 	right: 55%;
-	margin: auto;
+	margin: 0 auto;
 }
 
 #img1 {
@@ -111,7 +113,7 @@ header.index {
 	left: 55%;
 	right: 0;
 	text-align: right;
-	margin: auto;
+	margin: 0 auto;
 	padding-top: 15px;
 }
 
@@ -217,12 +219,12 @@ header.index {
 	height: 450px;
 	width: 100%;
 	margin: 0;
-	padding: 0 0;
+	padding: 0;
 	position: relative;
 }
 
 #div1 {
-	background: #34495e;
+	background: #34495E;
 }
 #div2 {
 	background: #E67E22;
@@ -312,7 +314,7 @@ header.index {
 
 .actionButtonMini {
 	padding: .35em;
-	margin: 2em 0 0 1%;
+	margin: 2em 0 0 .4em;
 	background: none repeat scroll 0 0 #C0392B;
 	border-radius: 6px;
 	
@@ -326,7 +328,7 @@ header.index {
 
 .actionButtonMini:before, .actionButtonMini:after {
 	color: rgba(0,0,0,0);
-	content: "___";
+	content: "__";
 }
 
 .actionButtonMini:active, .actionButtonMini:focus, .actionButtonMini:hover {
@@ -344,6 +346,14 @@ header.index {
 		>	footerShare
 			> AddToAny
 */
+
+#footerSnap {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	height: 100px;
+}
 
 footer {
 	position: relative;
