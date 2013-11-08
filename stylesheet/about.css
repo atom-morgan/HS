@@ -9,7 +9,7 @@ header.about {
 
 #main {
 	position: relative;
-	width: 960px;
+	width: 1280px;
 	height: calc(100% - 300px);
 	padding: 0;
 	margin: 0 auto;
@@ -18,13 +18,13 @@ header.about {
 #profileBox1 {
 	position: relative;
 	float: left;
-	width: 440px;
+	width: 500px;
 }
 
 #profileBox2 {
 	position: relative;
 	float: right;
-	width: 440px;
+	width: 500px;
 }
 
 .profileHeadT {
@@ -34,8 +34,8 @@ header.about {
 .profileTImg {
 	vertical-align: middle;
 	display: table-cell;
-	width: 220px;
-	height: 270px;
+	width: 250px;
+	height: 250px;
 	padding-right: 10px;
 }
 
