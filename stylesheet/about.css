@@ -1,5 +1,6 @@
 * {
 	box-sizing: border-box;
+	-moz-box-sizing: border-box;
 }
 
 header.about {
@@ -34,7 +35,12 @@ header.about {
 	vertical-align: middle;
 	display: table-cell;
 	width: 220px;
-	height: 150px;
+	height: 270px;
+	padding-right: 10px;
+}
+
+.profilePic {
+
 }
 
 .profileTTitle {
@@ -44,6 +50,7 @@ header.about {
 }
 
 .profileTTitleName {
+	white-space: nowrap;
 	font-family: 'Roboto';
 	font-weight: 500;
 	font-size: 1.75em;
