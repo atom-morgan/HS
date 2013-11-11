@@ -1,46 +1,16 @@
-<?php
-if(isset($_POST['email'])) {
+<?php 
+if(isset($_POST['submit'])){
+    $to = "hairstoryapp@gmail.com"; // this is your Email address
+    $from = $_POST['email']; // this is the sender's Email address
+    $subject = "You have a new user!";
+    $subject2 = "Thank you for your interest in HairStory!";
+    $message = $from . " " . " has signed up for HairStory!";
 
-    // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "hairstoryapp@gmail.com";
-    $email_subject = "New user has signed up!";
-
-
-    function died($error) {
-        // your error code can go here
-        echo "We are very sorry, but there were error(s) found with the form you submitted. ";
-        echo "These errors appear below.<br /><br />";
-        echo $error."<br /><br />";
-        echo "Please go back and fix these errors.<br /><br />";
-        die();
+    $headers = "From:" . $from;
+    $headers2 = "From:" . $to;
+    mail($to,$subject,$message,$headers);
+    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+    echo "Mail Sent. Thank you " . $from . ", we will contact you shortly.";
+    // You can also use header('Location: thank_you.php'); to redirect to another page.
     }
-
-    // validation expected data exists
-    if(!isset($_POST['email']) || {
-        died('We are sorry, but there appears to be a problem with the form you submitted.');       
-    }
-
-    $email_message = "A new user has signed up!";
-
-    function clean_string($string) {
-      $bad = array("content-type","bcc:","to:","cc:","href");
-      return str_replace($bad,"",$string);
-    }
-
-    $email_from .= $_POST['email'];
-
-
-// create email headers
-$headers = 'From: '.$email_from."\r\n".
-'Reply-To: '.$email_from."\r\n" .
-'X-Mailer: PHP/' . phpversion();
-echo (int) mail($email_to, $email_subject, $email_message, $headers);  
-?>
-
-<!-- include your own success html here -->
-
-Thank you for contacting us. We will be in touch with you very soon.
-
-<?php
-}
 ?>
