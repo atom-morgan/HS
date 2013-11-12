@@ -1,6 +1,7 @@
 <?php 
 if(isset($_POST['submit'])){
-    $to = "hairstoryapp@gmail.com"; // this is your Email address
+    //$to = "hairstoryapp@gmail.com"; // this is your Email address
+    $to = "noreply@hairstoryapp.com";
     $from = $_POST['email']; // this is the sender's Email address
     $subject = "You have a new user!";
     $subject2 = "Thank you for your interest in HairStory!";
