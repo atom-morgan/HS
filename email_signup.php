@@ -8,7 +8,6 @@ if(isset($_POST['submit'])){
 
     $headers = "From:" . $to;
     $headers2 = "From:" . $from;
-    mail('atom.morgan@gmail.com', 'Subject', 'Message');
     mail($from,$subject,$message,$headers);
     mail($to,$subject2,$message2,$headers2); // sends a copy of the message to the sender
     echo "Mail Sent. Thank you " . $to . ", we will contact you shortly.";
